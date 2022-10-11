@@ -1,0 +1,120 @@
+header{
+	margin-top: 0%;
+  letter-spacing: 0ch;
+	overflow: hidden;
+ 
+}
+
+#top-header{
+	letter-spacing: 0ch;
+	text-align: center;
+	height: 60px;
+   position: sticky;
+  top: 0%;
+}
+#logo{
+	float: left;
+	padding: none;
+	height: 60px;
+	width: 30%;
+}
+
+#logo img{
+	width: 60%;
+	float: left;
+  padding: 3px;
+
+}
+#menu{
+	float: right;
+	width: 70%;
+	height: 80%;
+  border: none;
+  /* background-color: #08080a; */
+}
+	
+#menu ul{
+	text-align: center;
+  	/* background: #0d0d0d; */
+}
+	
+#menu li{
+	display: inline-block;
+}
+	
+#menu li a, #menu li span{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+	
+#menu li a{
+		
+	color: #FFF;
+}
+	
+#menu li:hover a, #menu li span{
+	background: #FFF;
+	color: #000000;
+	/* border-left: 1px solid #0074D9; */
+	text-decoration: none;
+}
+#navlist a:hover {
+  background-color: #ddd;
+   color: black; 
+}
+body {
+  background: #67B26F; 
+  background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F); 
+  background: linear-gradient(to right, #4ca2cd, #67B26F); 
+  color: #000;
+}
+.profile .card {
+  border-radius: 10px;
+
+}
+.profile .card .card-header .profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 10px auto;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 50%;
+ 
+
+}
+.profile .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container{
+  padding-top: 100px;
+  width: 700px;  
+  overflow: hidden;  
+  margin: auto;  
+  margin: 20 0 0 450px;  
+  padding: 80px; 
+  border-radius: 30px ;  
+  background: #67B26F; 
+  background: -webkit-linear-gradient(to right, #55baec, #0940ad); 
+  background: linear-gradient(to right, #383bc7, #5ce757); 
+  color: #000;
+
+}
+.card-header{
+  padding-left: 36%;
+  
+}
+.card-body{
+  padding-left: 20%;
+  font-weight: 100;
+  font-size: large;
+  font: bold;
+}.general{
+  font-size: larger;
+  font: bolder;
+  text-align: center;
+}

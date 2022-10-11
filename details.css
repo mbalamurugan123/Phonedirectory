@@ -1,0 +1,125 @@
+header{
+	margin-top: 0%;
+  letter-spacing: 0ch;
+	overflow: hidden;
+  
+}
+
+#top-header{
+	letter-spacing: 0ch;
+	text-align: center;
+	height: 60px;
+}
+#logo{
+	float: left;
+	padding: none;
+	height: 60px;
+	width: 30%;
+}
+
+#logo img{
+	width: 60%;
+	float: left;
+  padding: 3px;
+
+}
+#menu{
+	float: right;
+	width: 70%;
+	height: 80%;
+  border: none;
+  /* background-color: #08080a; */
+}
+	
+#menu ul{
+	text-align: center;
+  /* background: #0d0d0d; */
+}
+	
+#menu li{
+	display: inline-block;
+}
+	
+#menu li a, #menu li span{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+	
+#menu li a{
+		
+	color: rgb(0, 0, 0);
+}
+	
+#menu li:hover a, #menu li span{
+	background: rgb(255, 255, 255);
+	/* color: #0074D9; */
+	/* border-left: 1px solid #0074D9; */
+	text-decoration: none;
+}
+#navlist a:hover {
+  background-color: #ddd;
+  /* color: black; */
+}
+
+.login{
+  width: 800px;   
+  margin: auto;  
+  margin: 20 0 0 450px;  
+  padding: 70px;  
+  background: #30a122;  
+  border-radius: 30px ;  
+  opacity: 0.7;
+          
+}  
+h1{  
+  text-align: center; 
+  padding-top: 30px;
+  color: #3417d8;  
+  
+  
+}  
+label{  
+  color: #000000;  
+  font-size: 17px;  
+}  
+#uname{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+}  
+#Pass{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+      
+}  
+#log{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 17px;  
+  padding-left: 7px;  
+  color: blue;  
+  
+  
+}  
+span{  
+  color: white;  
+  font-size: 17px; 
+}  
+.urll{  
+  float: right;
+  left: 50%;  
+   
+} 
+.url{
+  float: right;
+}
